@@ -19,7 +19,7 @@ class ArrayList : public List<T> {
         int partition(int start, int end);
         void resize();  // Resize function to increase capacity if needed
         T *array; //array pointer
-        // bool checkInvariants(); //Function checks if thethe size of an array is less than its capacity
+        // bool checkInvariants(); //Function checks if the size of an array is less than its capacity
     public:
 
         /**

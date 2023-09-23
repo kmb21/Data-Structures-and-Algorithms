@@ -32,7 +32,6 @@ class List {
     // Virtual functions to be implemented by child classes
         virtual ~List(){};
         virtual int getSize() = 0;
-        virtual T get(T key) = 0;
         virtual T getFirst() = 0;
         virtual T getLast() = 0;
         virtual void insertFirst(T val) = 0;
